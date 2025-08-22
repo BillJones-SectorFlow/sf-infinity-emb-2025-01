@@ -1,0 +1,40 @@
+# Infinity dependencies
+runpod>=1.7.13
+infinity-emb[all] @ git+https://github.com/wirthual/infinity.git@add-version-check#subdirectory=libs/infinity_emb
+einops
+git+https://github.com/pytorch-labs/float8_experimental.git
+sentencepiece
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Logging and monitoring
+structlog>=23.1.0
+
+# HTTP client improvements  
+urllib3>=2.0.0
+
+# Data validation and serialization
+jsonschema>=4.19.0
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+requests-mock>=1.11.0
+
+# Development dependencies
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: Performance monitoring
+prometheus-client>=0.17.0
+
+# Optional: Async support
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
